@@ -207,15 +207,7 @@ font-size: ;}
 	
 }
  
-.box-1{
-	background-image:url("../images/services-1.png");
-}
-.box-2{
-	background-image:url("../images/services-2.png");
-}
-.box-3{
-	background-image: url("../images/servies-3.png");
-}
+
 .box-1 span,
 .box-2 span,
 .box-3 span{
@@ -261,7 +253,7 @@ font-size: ;}
 	height:280px;
 	background-size:cover;
 	background-repeat:no-repeat;
-	background-image: url("../images/project in your mind.png");
+	
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -269,7 +261,7 @@ font-size: ;}
 	margin: 0px 0px 20px 0px;
 }
 .contact-me p{
-	color:#FFFFFF;
+	
 	font-size: 30px;
 	font-family: calibri;
 	font-weight:bold;
@@ -283,6 +275,16 @@ font-size: ;}
 	outline:none;
 	font-size:14px;
 	font-weight:bold;
+}
+.check-projects{
+	border:2px solid #373636;
+	color:#373636;
+	background-color:transparent;
+}
+.check-projects:hover{
+	background-color:grey;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	transition:all ease 0.5s;
 }
 footer p{
 	font-family: calibri;
@@ -430,6 +432,10 @@ footer{
 		font-size: 14px;
 		height:35px;
 		width: 160px;
+	}
+	.mail-link{
+		text-decoration: none;
+		color:white;
 	}
 }
 @media(max-width:750px){
