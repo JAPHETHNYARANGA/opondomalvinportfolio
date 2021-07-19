@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>Personal Website</title>
+<link rel="stylesheet" href="projects.css">
+<link rel="text/javascript" src="java.js" />
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section>
+	<!--navigation------------------------->
+	<nav>
+	<!--logo-->
+	<a href="./index.html" class="logo">Click to go Back to Home</a>
+	<!--menu-->
+	
+	<!--bars--------------->
+	<div class="toggle"></div>
+	
+	</nav>
+  </section>
+  <!--text----------------------->
+  <br><br><br>
+  <div class="images">
+      <div class="image1">
+          <img src="./images/image1.jpeg" alt="image1" height="500px" width="400px">
+      </div>
+      <div class="image2">
+        <img src="./images/image2.jpeg" alt="image1"  height="500px" width="500px">
+    </div>
+    <div class="image3">
+        <img src="./images/image3.jpeg" alt="image1" height="500px" width="500px">
+    </div>
+<!-- 
+    <div class="videos">
+        <div class="vid1">
+            <video width ="320" height = "240" controls>
+                <source src="images/vid2.html" type="video/mp4">
+            </video>
+        </div>
+    </div> -->
+  </div>
+ 
+
+
+
+
+
+
+
+<script src="java.js" ></script>
+</body>
+ <!--JQUery-------------------->
+ <script type="text/javascript" src="js/JQuery.js"></script>
+ <script type="text/javascript">
+ $(document).ready(function(){
+     $('.toggle').click(function(){
+         $('.toggle').toggleClass('active')
+         $('nav').toggleClass('active')
+     })
+ })
+ </script>
+</html>
